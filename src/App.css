@@ -1,0 +1,162 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 300px;
+  padding: 0em;
+  will-change: filter;
+  transition: filter 300ms;
+  align-content: flex-start
+
+}
+.logo4 {
+  height: 100px;
+  padding: 10em;
+  will-change: filter;
+  transition: filter 300ms;
+  align-content: left
+
+}
+
+.logoDay {
+  height: 300px;
+  padding: 0em;
+  
+
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff9064aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #fb8061aa);
+}
+.logo2 {
+  height: 200px;
+  padding-top: 0.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  align-content: flex-start
+}
+
+
+.logo2:hover {
+  filter: drop-shadow(0 0 2em #648dffaa);
+}
+
+.images {
+  flex: 1;
+  position: 'absolute'
+}
+
+#arrow {
+  background-color:rgb(241, 155, 57);
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-size: 1.5em;
+}
+
+#hamburger {
+  color:black
+}
+
+#pagesimage {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+#pagesimage2 {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.column {
+  float: left;
+  width: 18.33%;
+  padding: 5px;
+}
+#col2 {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+
+#col3 {
+  float: center;
+  width: 48%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#caption{
+  font-size: 1.5em;
+  color:#9ea3eb;
+  font-weight: bold;
+
+}
+
+#Cimage {
+  margin-bottom: 40px;
+
+}
+
+#tokyo {
+  margin-top: 0px;
+  padding: 0px;
+  border-radius: 20px;
+  height: 150;
+  width: 150;
+
+}
+
+#name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+Figure.Image{
+  margin-top: 30px;
+  padding: 4px;
+  border-radius: 20px;
+  height: 200;
+  width: 200;
+}
